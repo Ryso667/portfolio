@@ -14,6 +14,165 @@
   --shadow-hover: 0 8px 15px rgba(72, 52, 212, 0.2);
 }
 
+/* Section projet professionnel */
+#projet-professionnel {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-family: 'Arial', sans-serif;
+    color: #1A1A2E;
+    line-height: 1.7;
+  }
+  
+  #projet-professionnel h2 {
+    font-size: 2.5rem;
+    color: #1A7A7A;
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  #projet-professionnel h3 {
+    font-size: 1.8rem;
+    color: #1A7A7A;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    border-bottom: 3px solid #1A7A7A;
+    padding-bottom: 8px;
+  }
+  
+  #projet-professionnel h4 {
+    font-size: 1.3rem;
+    color: #1A1A2E;
+    margin-top: 25px;
+    margin-bottom: 12px;
+    font-weight: bold;
+  }
+  
+  /* Vision */
+  .vision {
+    background: linear-gradient(135deg, #E8F5F5 0%, #ffffff 100%);
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    border-left: 5px solid #1A7A7A;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  }
+  
+  .vision p {
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: #1A1A2E;
+    margin: 0;
+  }
+  
+  /* Parcours */
+  .parcours {
+    margin-bottom: 30px;
+  }
+  
+  /* Étape */
+  .etape {
+    background: #ffffff;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #1A7A7A;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .etape:hover {
+    transform: translateX(5px);
+    box-shadow: 0 4px 12px rgba(26, 122, 122, 0.15);
+  }
+  
+  .etape h4 {
+    color: #1A7A7A;
+    margin-top: 0;
+  }
+  
+  .etape p {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  /* Motivation */
+  .motivation {
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  }
+  
+  .motivation p {
+    margin-bottom: 15px;
+    font-size: 1.05rem;
+  }
+  
+  .motivation p:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* Formation */
+  .formation {
+    background: linear-gradient(135deg, #1A7A7A 0%, #2A9A9A 100%);
+    padding: 30px;
+    border-radius: 10px;
+    color: #ffffff;
+    box-shadow: 0 4px 12px rgba(26, 122, 122, 0.25);
+  }
+  
+  .formation h3 {
+    color: #ffffff;
+    border-bottom: 3px solid #ffffff;
+    margin-top: 0;
+  }
+  
+  .formation p {
+    font-size: 1.05rem;
+    margin-bottom: 15px;
+    color: #ffffff;
+  }
+  
+  .formation p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .formation strong {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    #projet-professionnel {
+      padding: 30px 15px;
+    }
+  
+    #projet-professionnel h2 {
+      font-size: 2rem;
+    }
+  
+    #projet-professionnel h3 {
+      font-size: 1.5rem;
+    }
+  
+    #projet-professionnel h4 {
+      font-size: 1.15rem;
+    }
+  
+    .vision, .motivation, .formation {
+      padding: 20px;
+    }
+  
+    .etape {
+      padding: 20px;
+    }
+  }
+
 /* Reset et styles de base */
 * {
   margin: 0;
